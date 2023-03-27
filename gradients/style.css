@@ -128,3 +128,37 @@
     color: white;
     background-image: linear-gradient(rgba(255,0,0,.2),rgba(0,0,255,1));
 }
+
+    /* radial gradient */
+
+#radial{
+    height: 400px;
+    width: 700px;
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 5px;
+    background-image: radial-gradient(circle,black,blue,red,orange,yellow);
+}
+
+
+    /* conic gradient */
+
+#conic{
+    height: 400px;
+    width: 700px;
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 5px;
+    background-image: conic-gradient(yellow,blue,red,yellow,blue,red,yellow);
+}
+
+
+#conic-B{
+    height: 700px;
+    width: 700px;
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 50%;
+    background-image: conic-gradient(yellow,blue,red,yellow,blue,red,yellow);
+}
